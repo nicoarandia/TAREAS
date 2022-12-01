@@ -1,8 +1,8 @@
 import React,{useState} from "react";
-import Todo from "./todo";
+import Todo from "../pure/todo";
 
 //Importamos los estilos
-import '../style/todoapp.css'
+import '../../style/todoapp.css'
 
 export default function TodoApp() {
     
