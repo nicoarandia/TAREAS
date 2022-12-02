@@ -1,12 +1,18 @@
 
-import './App.css';
-import TodoApp from './models/todoApp';
+//importar con tareas
+//import './App.css';
+//import TodoApp from './models/todoApp';
+
+import WeatherApp from "./components/pure/weatherApp";
+
+
 
 
 function App() {
   return (
-    <div className="App">
-      <TodoApp></TodoApp>
+    <div  >
+    <WeatherApp/>
+    {/** <TodoApp></TodoApp>    Tareas*/}  
     </div>
   );
 }

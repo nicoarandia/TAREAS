@@ -1,0 +1,7 @@
+.weatherContainer{
+    padding: 200px;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    font-size:medium;
+}
